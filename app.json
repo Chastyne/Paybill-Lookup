@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/about/about"
+  ],
+  "window": {
+    "defaultTitle": "M-pesa Paybill Lookup",
+    "titleBarColor": "#33b04f"
+  }
+}

@@ -1,0 +1,13 @@
+<view class="container">
+  <text class="heading">About</text>
+  <view class="spacer"></view>
+  <text class="desc">
+    This tool helps you search for business Paybill numbers quickly using their names
+  </text>
+  <view class="spacer"></view>
+  <image class="icon" src="../../assest/find1.png" mode="aspectFit" />
+  <view class="spacer"></view>
+  <text class="desc">
+    Always verify the Paybill number before sending money.
+  </text>
+</view>

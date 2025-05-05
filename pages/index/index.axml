@@ -1,0 +1,40 @@
+<view class="container">
+  <input
+    class="search-input"
+    placeholder="Enter business name"
+    value="{{searchItem}}"
+    onInput="onInput"
+  />
+  <button onTap="onSearch" class="btn">Search</button>
+
+  <view class="result-list">
+    <block a:if="{{noResults}}">
+      <text class="no-results">No paybills found for the given business name.</text>
+    </block>
+    <block a:for="{{results}}" a:key="id">
+      <view class="result-item">
+        <text class="name">{{item.businessName}}</text>
+        <text class="paybill">Paybill: {{item.paybillNumber}}</text>
+      </view>
+    </block>
+  </view>
+
+  <view class="popular-section">
+    <text class="section-title">Popular Paybills</text>
+    <view class="popular-grid">
+      <block a:for="{{popularPaybills}}" a:key="id">
+        <view class="tile">
+          <text class="name">{{item.businessName}}</text>
+          <text class="paybill"> {{item.paybillNumber}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <navigator url="/pages/home/home" class="btn1">Home</navigator>
+
+</view>
+
+
+
+

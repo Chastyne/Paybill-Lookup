@@ -1,0 +1,21 @@
+.container {
+  padding: 150rpx;
+  text-align: center;
+}
+.heading {
+  font-size: 100rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.desc {
+  font-size: 40rpx;
+  color: rgb(9, 9, 9);
+}
+.spacer {
+  height: 40rpx;
+}
+.icon {
+  margin-top: 40rpx;
+  width: 300rpx;
+  height: 300rpx;
+}

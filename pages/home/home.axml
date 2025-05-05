@@ -1,0 +1,7 @@
+<view class="container">
+  <text class="title">Find and manage paybills</text>
+  <text class="desc">Search for business Paybill numbers today using their names</text>
+  <image class="icon" src="../../assest/find1.png" mode="aspectFit" />
+  <navigator url="/pages/index/index" class="btn">Get Started</navigator>
+  <navigator url="/pages/about/about" class="btn">About</navigator>
+</view>
